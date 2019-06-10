@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://10END01.github.io/"/>
-  <updated>2019-05-28T16:07:29.846Z</updated>
+  <updated>2019-06-10T08:36:36.816Z</updated>
   <id>https://10END01.github.io/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Hello World</title>
-    <link href="https://10END01.github.io/uncategorized/2019/05/29/hello-world.html"/>
-    <id>https://10END01.github.io/uncategorized/2019/05/29/hello-world.html</id>
-    <published>2019-05-28T16:07:29.846Z</published>
-    <updated>2019-05-28T16:07:29.846Z</updated>
+    <title>MarkDown基本使用教程</title>
+    <link href="https://10END01.github.io/%E7%BC%96%E7%A8%8B/2019/06/10/MarkDown%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B.html"/>
+    <id>https://10END01.github.io/编程/2019/06/10/MarkDown基本使用教程.html</id>
+    <published>2019-06-10T08:26:33.000Z</published>
+    <updated>2019-06-10T08:36:36.816Z</updated>
     
     <summary type="html">
     
@@ -29,7 +29,34 @@
       
         
         
-          &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a
+          &lt;p&gt;[TOC]&lt;/p&gt;
+&lt;h2 id=&quot;MarkDown使用教程&quot;&gt;&lt;a href=&quot;#MarkDown使用教程&quot; class=&quot;headerlink&quot; title=&quot;MarkDown使用教程&quot;&gt;&lt;/a&gt;MarkDown使用教程&lt;/h2&gt;&lt;h4 id=&quot;前言&quot;&gt;&lt;a
+        
+      
+    
+    </summary>
+    
+      <category term="编程" scheme="https://10END01.github.io/categories/%E7%BC%96%E7%A8%8B/"/>
+    
+    
+      <category term="markdown" scheme="https://10END01.github.io/tags/markdown/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>hello world</title>
+    <link href="https://10END01.github.io/uncategorized/2019/06/09/hello-world.html"/>
+    <id>https://10END01.github.io/uncategorized/2019/06/09/hello-world.html</id>
+    <published>2019-06-09T08:41:49.000Z</published>
+    <updated>2019-06-10T08:42:19.682Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;hello-world&quot;&gt;&lt;a href=&quot;#hello-world&quot; class=&quot;headerlink&quot; title=&quot;hello world&quot;&gt;&lt;/a&gt;hello
         
       
     
