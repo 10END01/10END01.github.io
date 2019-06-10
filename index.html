@@ -205,6 +205,7 @@
   <div class="container sidebar-position-left 
   page-home">
     <div class="headband"></div>
+	<a href="https://github.com/10END01" class="github-corner" aria-label="View source on GitHub"><svg width="80" height="80" viewbox="0 0 250 250" style="fill:#151513; color:#fff; position: absolute; top: 0; border: 0; right: 0;" aria-hidden="true"><path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"/><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"/><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"/></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
       <div class="header-inner"><div class="site-brand-wrapper">
@@ -490,140 +491,17 @@
       
         
           
-            <p>[TOC]</p>
-<h2 id="MarkDown使用教程"><a href="#MarkDown使用教程" class="headerlink" title="MarkDown使用教程"></a>MarkDown使用教程</h2><h4 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h4><p>​    以前经常在 <strong>github</strong> 中看到 <em>.md</em>式的文件，一直没有注意，也不明白为什么文本文档的后缀不是 <em>.txt</em> ,后来在学习<strong>Linux</strong>的中老师提到了 <strong>Markdown</strong>，然后在开始建立自己的公众号和博客时接触markdown，学习其基本语法。</p>
-<h4 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h4><p>​    Markdown是一种可以使用普通文本编辑器编写的标记语言，通过简单的标记语法，它可以使普通文本内容具有一定的格式。从一个程序员的角度来讲，Markdown可以认为是一种语言（简化的HTML）。编辑器将Markdown语法翻译成对应的HTML语法来对普通文本排版。对普通人来说，Markdown就是一套文本排版的书写方法，利用这套书写方法，可以在书写文本时直接进行操作，实现排版、加重、标题等功能。</p>
-<h4 id="基本语法"><a href="#基本语法" class="headerlink" title="基本语法"></a>基本语法</h4><h5 id="1、标题"><a href="#1、标题" class="headerlink" title="1、标题"></a>1、标题</h5><blockquote>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">&gt; # 标题1</span><br><span class="line">&gt; ## 标题2</span><br><span class="line">&gt; ### 标题3</span><br><span class="line">&gt; #### 标题4</span><br><span class="line">&gt; ##### 标题5</span><br><span class="line">&gt; ###### 标题6</span><br><span class="line">&gt;</span><br></pre></td></tr></table></figure>
-</blockquote>
-<p>注：<code>#</code> 和「一级标题」之间建议保留一个字符的空格，这是最标准的 Markdown 写法。</p>
-<p>效果如下</p>
-<blockquote>
-<font size="6"><strong>标题1</strong></font>
-
-<font size="5"><strong>标题2</strong></font>
-
-<font size="4"><strong>标题3</strong></font>
-
-<font size="3"><strong>标题4</strong></font>
-
-<font size="2"><strong>标题5</strong></font>
-
-<font size="1"><strong>标题6</strong></font>
-</blockquote>
-<h5 id="2、段落-amp-换行"><a href="#2、段落-amp-换行" class="headerlink" title="2、段落&amp;换行"></a>2、段落&amp;换行</h5><h6 id="2-1-首行缩进"><a href="#2-1-首行缩进" class="headerlink" title="2.1.首行缩进"></a>2.1.首行缩进</h6><blockquote>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">&gt; - `&amp;nbsp;`: 英文空格(半角)</span><br><span class="line">&gt; - `&amp;emsp;`: 中文空格(全角)</span><br><span class="line">&gt; - 输入法切换至全角，双击 **空格** *「推荐」*</span><br><span class="line">&gt; - 半方大的空白 `&amp;ensp;` 或 **&amp;#8194**</span><br><span class="line">&gt; - 全方大的空白`&amp;emsp;` 或 **&amp;#8195**</span><br><span class="line">&gt; - 不断行的空白格 `&amp;nbsp;` 或 **&amp;#160**  </span><br><span class="line">&gt;</span><br></pre></td></tr></table></figure>
-</blockquote>
-<h6 id="2-2-强制换行"><a href="#2-2-强制换行" class="headerlink" title="2.2.强制换行"></a>2.2.强制换行</h6><p>​    连续的字符串，如果你想要换行，往往打“Enter”是不管用的，正确的换行方法为在 <strong>「在需要换行的地方插入 &gt;=2 个 空格」</strong></p>
-<h5 id="3、字体加粗"><a href="#3、字体加粗" class="headerlink" title="3、字体加粗"></a>3、字体加粗</h5><blockquote>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">&gt; **加粗**</span><br><span class="line">&gt;</span><br></pre></td></tr></table></figure>
-</blockquote>
-<p>效果如下:</p>
-<blockquote>
-<p><strong>加粗</strong></p>
-</blockquote>
-<h5 id="4、字体高亮"><a href="#4、字体高亮" class="headerlink" title="4、字体高亮"></a>4、字体高亮</h5><blockquote>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">&gt; ==高亮==</span><br><span class="line">&gt;</span><br></pre></td></tr></table></figure>
-</blockquote>
-<p>效果如下:</p>
-<blockquote>
-<p>==高亮==</p>
-</blockquote>
-<h5 id="5、字体斜体"><a href="#5、字体斜体" class="headerlink" title="5、字体斜体"></a>5、字体斜体</h5><blockquote>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">&gt; *斜体*</span><br><span class="line">&gt;</span><br></pre></td></tr></table></figure>
-</blockquote>
-<p>效果如下:</p>
-<blockquote>
-<p><em>斜体</em></p>
-</blockquote>
-<h5 id="6、列表"><a href="#6、列表" class="headerlink" title="6、列表"></a>6、列表</h5><blockquote>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line">&gt; 1. 有序列表</span><br><span class="line">&gt; </span><br><span class="line">&gt; 2. 有序列表</span><br><span class="line">&gt; </span><br><span class="line">&gt; 3. 有序列表</span><br><span class="line">&gt; </span><br><span class="line">&gt; / 无序列表</span><br><span class="line">&gt; </span><br><span class="line">&gt; + 无序列表</span><br><span class="line">&gt; </span><br><span class="line">&gt; - 无序列表</span><br><span class="line">&gt; </span><br><span class="line">&gt; * 无序列表</span><br><span class="line">&gt;</span><br></pre></td></tr></table></figure>
-</blockquote>
-<p>效果如下:</p>
-<blockquote>
-<ol>
-<li>有序列表</li>
-<li>有序列表</li>
-<li>有序列表</li>
-</ol>
-<ul>
-<li>无序列表</li>
-<li><p>无序列表</p>
-</li>
-<li><p>无序列表</p>
-</li>
-<li><p>无序列表</p>
-</li>
-</ul>
-</blockquote>
-<h5 id="7、表格"><a href="#7、表格" class="headerlink" title="7、表格"></a>7、表格</h5><blockquote>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">&gt; 表头|条目一|条目二</span><br><span class="line">&gt; :---:|:---:|:---:</span><br><span class="line">&gt; 项目|项目一|项目二</span><br><span class="line">&gt;</span><br></pre></td></tr></table></figure>
-</blockquote>
-<p>效果如下:</p>
-<table>
-<thead>
-<tr>
-<th style="text-align:center">表头</th>
-<th style="text-align:center">条目一</th>
-<th style="text-align:center">条目二</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:center">项目</td>
-<td style="text-align:center">项目一</td>
-<td style="text-align:center">项目二</td>
-</tr>
-</tbody>
-</table>
-<h5 id="8、分隔带-amp-引用"><a href="#8、分隔带-amp-引用" class="headerlink" title="8、分隔带&amp;引用"></a>8、分隔带&amp;引用</h5><blockquote>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&gt; ---或***</span><br><span class="line">&gt; `引用`</span><br><span class="line">&gt;</span><br></pre></td></tr></table></figure>
-</blockquote>
-<p>效果如下:</p>
-<blockquote>
-<hr>
-<p><code>引用</code></p>
-</blockquote>
-<h5 id="9、插入图片-amp-链接"><a href="#9、插入图片-amp-链接" class="headerlink" title="9、插入图片&amp;链接"></a>9、插入图片&amp;链接</h5><blockquote>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">&gt; 插入链接</span><br><span class="line">&gt; [baidu](http://baidu.com)</span><br><span class="line">&gt; 插入图片</span><br><span class="line">&gt; 方法一：</span><br><span class="line">&gt; ![微信公众号](https://raw.githubusercontent.com/10END01/test/master/%E4%BA%8C%E7%BB%B4%E7%A0%81.jpg)</span><br><span class="line">&gt; 方法二：</span><br><span class="line">&gt; &lt;img src=&quot;https://raw.githubusercontent.com/10END01/test/master/%E4%BA%8C%E7%BB%B4%E7%A0%81.jpg&quot; width=&quot;100&quot; height=&quot;100&quot;&gt;</span><br><span class="line">&gt; 注：方法二中设置图像的大小</span><br><span class="line">&gt; </span><br><span class="line">&gt;</span><br></pre></td></tr></table></figure>
-</blockquote>
-<p>效果如下：</p>
-<p><a href="http://baidu.com" target="_blank" rel="noopener">baidu</a><br><img src="https://raw.githubusercontent.com/10END01/test/master/%E4%BA%8C%E7%BB%B4%E7%A0%81.jpg" alt="微信公众号"><br><img src="https://raw.githubusercontent.com/10END01/test/master/%E4%BA%8C%E7%BB%B4%E7%A0%81.jpg" width="100" height="100"></p>
-<h5 id="10、插入代码"><a href="#10、插入代码" class="headerlink" title="10、插入代码"></a>10、插入代码</h5><blockquote>
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&gt; &gt;<span class="string">``</span><span class="string">`javascript</span></span><br><span class="line"><span class="string">&gt; </span></span><br><span class="line"><span class="string">&gt;</span></span><br></pre></td></tr></table></figure>
-</blockquote>
-<p>效果如下:</p>
-<blockquote>
-<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">&gt;  <span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;iostrem&gt;  </span></span></span><br><span class="line">&gt;  <span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;  </span><br><span class="line">&gt;  <span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">(<span class="keyword">int</span> argc, <span class="keyword">char</span> **argv)</span>  </span></span><br><span class="line">&gt;  &#123;</span><br><span class="line">&gt;      <span class="built_in">cout</span> &lt;&lt; <span class="string">"hello,world!"</span>;</span><br><span class="line">&gt;  &#125;</span><br><span class="line">&gt; </span><br><span class="line">&gt;</span><br></pre></td></tr></table></figure>
-</blockquote>
-<h5 id="11、网页自动转换"><a href="#11、网页自动转换" class="headerlink" title="11、网页自动转换"></a>11、网页自动转换</h5><blockquote>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&gt; 我的GitHub：&lt;https://github.com/10END01&gt;</span><br><span class="line">&gt; </span><br><span class="line">&gt;</span><br></pre></td></tr></table></figure>
-</blockquote>
-<p>效果如下：</p>
-<p>我的GItHub：<a href="https://github.com/10END01" target="_blank" rel="noopener">https://github.com/10END01</a></p>
-<h5 id="12、字体、颜色与字号"><a href="#12、字体、颜色与字号" class="headerlink" title="12、字体、颜色与字号"></a>12、字体、颜色与字号</h5><blockquote>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">&gt; &lt;font face=&quot;黑体&quot;&gt;我是黑体字&lt;/font&gt;</span><br><span class="line">&gt; &lt;font face=&quot;微软雅黑&quot;&gt;我是微软雅黑&lt;/font&gt;</span><br><span class="line">&gt; &lt;font face=&quot;STCAIYUN&quot;&gt;我是华文彩云&lt;/font&gt;</span><br><span class="line">&gt; &lt;font color=red&gt;我是红色&lt;/font&gt;</span><br><span class="line">&gt; &lt;font color=#008000&gt;我是绿色&lt;/font&gt;</span><br><span class="line">&gt; &lt;font color=Blue&gt;我是蓝色&lt;/font&gt;</span><br><span class="line">&gt; &lt;font size=5&gt;我是尺寸&lt;/font&gt;</span><br><span class="line">&gt; &lt;font face=&quot;黑体&quot; color=green size=5&gt;我是黑体，绿色，尺寸为5&lt;/font&gt;</span><br><span class="line">&gt; &lt;table&gt;&lt;tr&gt;&lt;td bgcolor=orange&gt;背景色是：orange&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</span><br><span class="line">&gt; </span><br><span class="line">&gt;</span><br></pre></td></tr></table></figure>
-</blockquote>
-<p>效果如下：</p>
-<blockquote>
-<font face="黑体">我是黑体字</font><br><font face="微软雅黑">我是微软雅黑</font><br><font face="STCAIYUN">我是华文彩云</font><br><font color="red">我是红色</font><br><font color="#008000">我是绿色</font><br><font color="Blue">我是蓝色</font><br><font size="5">我是尺寸</font><br><font face="黑体" color="green" size="5">我是黑体，绿色，尺寸为5</font>
-
-<table><tr><td bgcolor="orange">背景色是：orange</td></tr></table>
-</blockquote>
-<h4 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h4><blockquote>
-<p>​    本文对markdown基本语法进行了介绍，开头加入[TOC]，即可以加入目录索引，markdown对于程序员来说，排版简便，基本不用鼠标即可完成，推荐markdown软件有Typora，MarkdownPad2，Atom等，markdown可移植性很强，可以直接把文章从编辑器中发送到微信，甚至可以直接复制成微信公众号格式，现阶段还处在对markdown更加熟悉的阶段，若有什么编写问题，欢迎大家与我交流。</p>
-</blockquote>
-<h4 id="参考链接"><a href="#参考链接" class="headerlink" title="参考链接"></a>参考链接</h4><blockquote>
-<ul>
-<li><a href="https://blog.csdn.net/mzlogin/article/details/82530240" target="_blank" rel="noopener">Markdown 笔记与教程</a></li>
-<li><a href="https://blog.csdn.net/u014061630/article/details/81359144" target="_blank" rel="noopener">十分钟学会markdown</a></li>
-<li><a href="https://blog.csdn.net/heimu24/article/details/81189700" target="_blank" rel="noopener">Markdown进阶</a></li>
-</ul>
-</blockquote>
-<h4 id="交流方式"><a href="#交流方式" class="headerlink" title="交流方式"></a>交流方式</h4><p>我的博客：<a href="https://10end01.github.io/">https://10end01.github.io/</a></p>
-<p>我的公众号：<br><img src="https://raw.githubusercontent.com/10END01/test/master/%E4%BA%8C%E7%BB%B4%E7%A0%81.jpg" width="100" height="100"></p>
-
-          
+          [TOC]
+MarkDown使用教程前言​    以前经常在 github 中看到 .md式的文件，一直没有注意，也不明白为什么文本文档的后缀不是 .txt ,后来在学习Linux的中老师提到了 Markdown，然后在开始建立自己的公众号和博客时接触markdown，学习其基本语法。
+简介​   
+          ...
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/编程/2019/06/10/MarkDown基本使用教程.html" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
         
       
     </div>
@@ -793,8 +671,15 @@
       
         
           
-            <h2 id="hello-world"><a href="#hello-world" class="headerlink" title="hello world"></a>hello world</h2>
+          hello world
           
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/uncategorized/2019/06/09/hello-world.html" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
         
       
     </div>
